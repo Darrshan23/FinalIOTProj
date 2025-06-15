@@ -1,0 +1,1 @@
+mosquitto_pub -h localhost:8081 -p 1883 -t "v1/devices/me/telemetry" -u "FfuxHPuoDap7Ud6Ae7is" -m '{"temperature":25.5}'
